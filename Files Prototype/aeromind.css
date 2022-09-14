@@ -48,6 +48,22 @@ body{
     .sidenav a {font-size: 18px;}
   }
 
-  table, tr, td{
+  table,tr, td{
     border: 1px solid black;
+  }
+  .cadastro{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(67, 161, 67);
+ 
+  }
+  .cadastro a {
+    text-decoration: none;
+    color: black;
+  }
+  .cadastro:hover{
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
   }
