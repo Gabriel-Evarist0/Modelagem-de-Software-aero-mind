@@ -2,6 +2,7 @@ body{
     background-color: rgb(228, 228, 228);
     font-family: "Lato", sans-serif;
 }
+/*TITULO PRINCIPAL*/
 .title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -9,6 +10,7 @@ body{
     text-shadow: 3px 3px grey;
     margin: 0px;
 }
+/*NavBar lateral*/
 .sidenav {
     height: 100%;
     width: 0;
@@ -20,8 +22,7 @@ body{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
+}
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -29,11 +30,11 @@ body{
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
+}
   
   .sidenav a:hover {
     color: #f1f1f1;
-  }
+}
   
   .sidenav .closebtn {
     position: absolute;
@@ -41,29 +42,30 @@ body{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
-
+}
+/*Tabela*/
   table,tr, td{
     border: 1px solid black;
-  }
+}
+  /*Botão de cadastro*/
   .cadastro{
     margin-top: 20px;
     border: none;
     border-radius: 5px;
     background-color: rgb(67, 161, 67);
  
-  }
+}
   .cadastro a {
     text-decoration: none;
     color: black;
-  }
+}
   .cadastro:hover{
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-  }
+}
