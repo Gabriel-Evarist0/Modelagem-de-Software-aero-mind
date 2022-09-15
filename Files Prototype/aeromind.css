@@ -10,6 +10,14 @@ body{
     text-shadow: 3px 3px grey;
     margin: 0px;
 }
+/*Subtitulo*/
+.subTitle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size:  30px;
+  text-shadow: 3px 3px grey;
+  margin: 50px;
+}
 /*NavBar lateral*/
 .sidenav {
     height: 100%;
@@ -65,6 +73,43 @@ body{
     color: black;
 }
   .cadastro:hover{
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.formsCadastro{
+  justify-content: center;
+  display: flex;
+}
+.input{
+  width: 350px;
+  margin-left: auto;
+  margin-bottom: 10px;
+
+}
+.btnCadastro1{
+  margin-left: 220px;
+  margin-top: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(9, 185, 9);
+  border: none;
+  border-radius: 5px;
+}
+.btnCadastro{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 30px;
+  text-align: center;
+}
+.btnCadastro:hover{
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.btnCadastro1:hover{
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;

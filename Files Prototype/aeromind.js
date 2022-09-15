@@ -8,5 +8,5 @@ function closeNav(){
 }
 //Sistema de Cadastro
 function cadastro(){
-    
+    alert("Isso é um prototipo, funções ainda n implementadas");
 }
