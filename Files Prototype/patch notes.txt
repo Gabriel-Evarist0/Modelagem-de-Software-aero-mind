@@ -5,3 +5,7 @@ Funcionalidades ainda não adicionadas;
 Navbar lateral criada para navegação entre paginas;
 Form de cadastro na pagina de cadastro criada;
 --------------------------------------------------------------------------------------------------------------
+Patch 1.1
+UserDetails criado;
+Pagina de rotas criada;
+Sistema de armazenagem local implementado (colocar em mais usos depois);
