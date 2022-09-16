@@ -8,7 +8,7 @@
     <script src="/Files Prototype/aeromind.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="MyDebbuger()">
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
     <h1 class="title">AeroMind</h1>
     <div id="menu" class="sidenav">
@@ -24,7 +24,7 @@
       <div class = "formsCadastro">
       <form>
           <label for="">Nome:</label>
-          <input class = "input2"type="text" placeholder = "Nome">
+          <input id="userName1" class = "input2"type="text">
           <br>
           <label for="">CPF:</label>
           <input class = "input2"type="text" placeholder = "CPF">
@@ -48,5 +48,7 @@
             <button class="btnAtt" onclick="cadastro()">Atualizar</button>
             <button class="btnCancela" onclick="cadastro()">Cancelar</button>
       </form>
+
+      <button onclick="MyDebbuger()">Debug</button>
     </div>
       </body>
