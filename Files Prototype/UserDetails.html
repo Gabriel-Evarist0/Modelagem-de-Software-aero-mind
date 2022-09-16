@@ -8,7 +8,7 @@
     <script src="/Files Prototype/aeromind.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="MyDebbuger()">
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
     <h1 class="title">AeroMind</h1>
     <div id="menu" class="sidenav">
@@ -19,30 +19,36 @@
         <a href="#">Horarios</a>
         <a href="#">Ajuda</a>
       </div>
-    <h2 class="subTitle">Cadastrar Usuário</h2>
-    <div class="formsCadastro">
-        <form action="">
-            <label for="#">Nome Completo do Piloto:</label>
-            <input class = "input" type="text" placeholder = "Nome Completo">
-            <br>
-            <label for="#">CPF do Piloto:</label>
-            <input class = "input" type="text" placeholder = "CPF">
-            <br>
-            <label for="#">E-mail do Piloto:</label>
-            <input class = "input" type="text" placeholder = "E-mail">
-            <br>
-            <label for="#">Número Brevê do Piloto:</label>
-            <input class = "input" type="text" placeholder = "Número Brevê">
-            <br>
-            <label for="">Tipo de Voo:</label>
+      <h2 class="subTitleH2">NOME DO USUÁRIO</h2>
+      <p>(PLACEHOLDER [VAI MUDAR DEPENDENDO DE QUAL USER VC CLICKAR])</p>
+      <div class = "formsCadastro">
+      <form>
+          <label for="">Nome:</label>
+          <input id="userName1" class = "input2"type="text">
+          <br>
+          <label for="">CPF:</label>
+          <input class = "input2"type="text" placeholder = "CPF">
+          <br>
+          <label for="">E-mail:</label>
+          <input class = "input2"type="text" placeholder = "E-mail">
+          <br>
+          <label for="">Telefone:</label>
+          <input class = "input2"type="text" placeholder = "telefone">
+          <br>
+          <label for="">Número Brevê:</label>
+          <input class = "input2"type="text" placeholder = "Número Brevê">
+          <br>
+          <label for="">Tipo de Voo:</label>
             <select name="tipoDeVoo" id="tipoDeVoo">
                 <option value="companhiaAerea">Companhia aérea</option>
                 <option value="vooPessoal">Voo Pessoal</option>
                 <option value="outro">Outro:</option>
             </select>
             <br>
-            <button class="btnCadastro" onclick="cadastro()">Cadastrar</button>
+            <button class="btnAtt" onclick="cadastro()">Atualizar</button>
             <button class="btnCancela" onclick="cadastro()">Cancelar</button>
-        </form>
+      </form>
+
+      <button onclick="MyDebbuger()">Debug</button>
     </div>
-</body>
+      </body>

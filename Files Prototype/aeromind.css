@@ -10,6 +10,10 @@ body{
     text-shadow: 3px 3px grey;
     margin: 0px;
 }
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px grey;
+}
 /*Subtitulo*/
 .subTitle{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -57,9 +61,18 @@ body{
     .sidenav a {font-size: 18px;}
 }
 /*Tabela*/
-  table,tr, td{
-    border: 1px solid black;
+  table{
+    border-collapse: collapse;
+    width: 50%;
 }
+  tr, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(110, 110, 110);
+  }
+  .hoverTable:hover{
+    background-color: rgb(164, 246, 144);
+  }
   /*Botão de cadastro*/
   .cadastro{
     margin-top: 20px;
@@ -87,7 +100,7 @@ body{
   margin-bottom: 10px;
 
 }
-.btnCadastro1{
+.btnCadastro{
   margin-left: 220px;
   margin-top: 30px;
   height: 30px;
@@ -96,7 +109,7 @@ body{
   border: none;
   border-radius: 5px;
 }
-.btnCadastro{
+.btnCancela{
   background-color: red;
   border: none;
   border-radius: 5px;
@@ -109,8 +122,39 @@ body{
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
-.btnCadastro1:hover{
+.btnCancela:hover{
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+}
+.subTitleH2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size:  25px;
+  text-shadow: 1px 1px grey;
+  margin: 50px;
+}
+
+.input2{
+  width: 150px;
+  margin-left: auto;
+  margin-bottom: 10px;
+
+}
+.btnAtt{
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(9, 185, 9);
+  border: none;
+  border-radius: 5px;
+}
+.btnAtt:hover{
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+p{
+  text-align: center;
 }
