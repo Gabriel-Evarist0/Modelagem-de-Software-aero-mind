@@ -19,30 +19,34 @@
         <a href="#">Horarios</a>
         <a href="#">Ajuda</a>
       </div>
-    <h2 class="subTitle">Cadastrar Usuário</h2>
-    <div class="formsCadastro">
-        <form action="">
-            <label for="#">Nome Completo do Piloto:</label>
-            <input class = "input" type="text" placeholder = "Nome Completo">
-            <br>
-            <label for="#">CPF do Piloto:</label>
-            <input class = "input" type="text" placeholder = "CPF">
-            <br>
-            <label for="#">E-mail do Piloto:</label>
-            <input class = "input" type="text" placeholder = "E-mail">
-            <br>
-            <label for="#">Número Brevê do Piloto:</label>
-            <input class = "input" type="text" placeholder = "Número Brevê">
-            <br>
-            <label for="">Tipo de Voo:</label>
+      <h2 class="subTitleH2">NOME DO USUÁRIO</h2>
+      <p>(PLACEHOLDER [VAI MUDAR DEPENDENDO DE QUAL USER VC CLICKAR])</p>
+      <div class = "formsCadastro">
+      <form>
+          <label for="">Nome:</label>
+          <input class = "input2"type="text" placeholder = "Nome">
+          <br>
+          <label for="">CPF:</label>
+          <input class = "input2"type="text" placeholder = "CPF">
+          <br>
+          <label for="">E-mail:</label>
+          <input class = "input2"type="text" placeholder = "E-mail">
+          <br>
+          <label for="">Telefone:</label>
+          <input class = "input2"type="text" placeholder = "telefone">
+          <br>
+          <label for="">Número Brevê:</label>
+          <input class = "input2"type="text" placeholder = "Número Brevê">
+          <br>
+          <label for="">Tipo de Voo:</label>
             <select name="tipoDeVoo" id="tipoDeVoo">
                 <option value="companhiaAerea">Companhia aérea</option>
                 <option value="vooPessoal">Voo Pessoal</option>
                 <option value="outro">Outro:</option>
             </select>
             <br>
-            <button class="btnCadastro" onclick="cadastro()">Cadastrar</button>
+            <button class="btnAtt" onclick="cadastro()">Atualizar</button>
             <button class="btnCancela" onclick="cadastro()">Cancelar</button>
-        </form>
+      </form>
     </div>
-</body>
+      </body>

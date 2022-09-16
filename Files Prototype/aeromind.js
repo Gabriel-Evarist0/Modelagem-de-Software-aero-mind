@@ -10,3 +10,7 @@ function closeNav(){
 function cadastro(){
     alert("Isso é um prototipo, funções ainda n implementadas");
 }
+function userDetails(){
+    location.assign("/Files Prototype/UserDetails.html");
+
+}
