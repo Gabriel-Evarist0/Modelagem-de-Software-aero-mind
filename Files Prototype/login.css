@@ -49,3 +49,10 @@ body{
     .sidenav a {font-size: 18px;}
 }
 
+.btnLogin{
+    height: 30px;
+    text-align: center;
+    background-color: rgb(9, 185, 9);
+    border: none;
+    border-radius: 5px;
+}

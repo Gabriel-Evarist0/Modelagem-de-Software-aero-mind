@@ -14,12 +14,14 @@ function cadastro(){
     var email = document.getElementById("emailCadastro");
     var breve = document.getElementById("breveCadastro");
     var tipoDeVoo = document.getElementById("tipoDeVoo");
+    var senhaUser = document.getElementById("password");
 
     if (nome.value == null || cpf.value == null || email.value == null || breve.value == null || tipoDeVoo.value == "NULL"){
         alert("Erro, valor dos dados invalido");
     }
     else{
-        sessionStorage.setItem("nomePiloto", nome.value);
+        var nomeUserFodase = nome.value + "Piloto";
+        sessionStorage.setItem(nomeUserFodase, nome.value);
         sessionStorage.setItem("cpfPiloto", cpf.value);
         sessionStorage.setItem("emailPiloto", email.value);
         sessionStorage.setItem("brevePiloto", breve.value);
@@ -35,12 +37,20 @@ function userDetails(user){
 //Sistema de Login
 function login(){
     var admLogin = "adm"
-    var admSenha = "teste123";
+    var admSenha = "senha";
+
     var inputLogin = document.getElementById("login")
     var inputSenha = document.getElementById("senha")
+
+    console.log(sessionStorage.getItem("JoséPiloto"))
+    console.log(inputLogin.value)
+    console.log(inputSenha.value)
     
-    if (inputLogin.value == admLogin && inputSenha == admSenha){
-        alert("Login realizado. Bem vindo administrado!!");
+  if (inputLogin.value == admLogin && inputSenha.value  == admSenha){
+        alert("Login realizado. Bem vindo administrador!!");
+    }
+    else{
+        console.log("Deu n")
     }
 
 }

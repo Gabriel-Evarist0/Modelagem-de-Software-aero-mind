@@ -12,3 +12,6 @@ Sistema de armazenagem local implementado (colocar em mais usos depois);
 
 -------------------------------------------------------------------------------------------------------------
 Patch 1.2
+Inicio do trabalho no sistema de login;
+Aprofundamento no sistema de cadastro;
+Inicio no processo de autenticação simploria sem o uso de Banco de dados.
